@@ -3,7 +3,7 @@ import { getDatabase, ref, set } from "firebase/database";
 import { app } from "../src/firebaseConfig";
 import "../css-files/UserAuthenticate.css";
 
-function App() {
+function UserAuthentication() {
   const [data, setData] = useState({});
 
   function handleInput(event) {
@@ -47,4 +47,4 @@ function App() {
   );
 }
 
-export default App;
+export default UserAuthentication;
